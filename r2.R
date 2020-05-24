@@ -7,6 +7,17 @@ murders$population #dollar sign is the accessor.
 names(murders)
 pop<-murders$population #stores the population
 length(pop)
-    
-    
-    
+class(pop) #shows the type
+
+#learning charcater vectors 
+v<- "a"
+class(v)
+
+#learning logical vectors
+z<-3==2
+class(z)
+
+#learning factors
+w<-murders$region
+class(w)    
+levels(w)
